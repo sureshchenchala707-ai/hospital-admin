@@ -9,15 +9,15 @@
             <input type="hidden" name="op_id" value="{{ $op->id }}">
             
             <div class="form-group">
-                <label>Consultation Fee</label>
+                <label>Consultation Fee :</label>
                 <input class="form-control" type="number" name="consultation_fee" value="0" required>
             </div>
             <div class="form-group">
-                <label>Lab Fee</label>
+                <label>Lab Fee :</label>
                 <input class="form-control" type="number" name="lab_fee" value="0">
             </div>
             <div class="form-group">
-                <label>Medicine Fee</label>
+                <label>Medicine Fee :</label>
                 <input class="form-control" type="number" name="medicine_fee" value="0">
             </div>
             <button class="btn btn-success">Generate Bill</button>
